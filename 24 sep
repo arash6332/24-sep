@@ -19,7 +19,6 @@ cd snarkOS
 
 cargo install --path .
 
-screen -S client
 
 ./run-client.sh
 
