@@ -4,9 +4,8 @@ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y
 
 source $HOME/.cargo/env
 
-
-ufw allow ssh 
-ufw allow https 
+ allow ssh 
+ allow https 
 
 sudo apt install screen -y
 
