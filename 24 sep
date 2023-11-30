@@ -32,9 +32,9 @@ screen -S prover
 ./run-prover.sh
 
 \\\\\\Enter your private Key
-
+APrivateKey1xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 \\\\ Press CTRL+A+D
 
 go to site https://www.aleo.network/transactions
-
+aleo1xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
