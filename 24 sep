@@ -14,9 +14,7 @@ git clone https://github.com/AleoHQ/snarkOS.git --dept
 cargo install --path .
 
          https://github.com/AleoHQ/snarkOS.git
-./run-client.sh
-
-\\\\\\\\\\Press CTRL+A+D
+./run-client.
 
 snarkos account new
 
