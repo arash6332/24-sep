@@ -6,7 +6,7 @@ source $HOME/.cargo/env
 
  allow ssh 
  allow https 
-\\\\\\\\\\\\Private Key  APrivateKey1xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
 sudo apt install screen -y
 
 git clone https://github.com/AleoHQ/snarkOS.git --dept
