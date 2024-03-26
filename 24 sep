@@ -1,10 +1,6 @@
 sudo apt update && sudo apt upgrade -y
 \\\\\\\\\\\\Private Key  APrivateKey1xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y
-\\\\\\\\\\\\Private Key  APrivateKey1xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-source $HOME/.cargo/env
-
-
  allow https 
 
 sudo apt install screen -y
