@@ -8,10 +8,7 @@ sudo apt install screen -y
 
 cargo install --path .
 
-         https://github.com/AleoHQ/snarkOS.git
-./run-client.
-
-snarkos account new
+         https://github.com/AleoHQ/snarkOS.gi
 
    \\\\\\\\\\  View Key  AViewKey1xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
  \\\\\\\\    Address  aleo1xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
