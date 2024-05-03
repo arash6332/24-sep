@@ -9,7 +9,7 @@ cargo install --path .
          https://github.com/AleoHQ/snarkOS.gi
 
  
- \\\\\\\\    Address  aleo1xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+ \\\\\\\\    Address  
 screen -S proverAPrivateKey1xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 ./run-prover.sh
