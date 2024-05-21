@@ -7,8 +7,6 @@ sudo apt install screen -y
 cargo install --path .
 
          https://github.com/AleoHQ/snarkOS.gi
-
- 
  \\\\\\\\    Address  
 screen -S proverAPrivateKey1xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
