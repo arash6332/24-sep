@@ -8,7 +8,7 @@ cargo install --path .
 
          https://github.com/AleoHQ/snarkOS.gi
  \\\\\\\\    Address  
-screen -S proverAPrivateKey1xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+screen -S 
 
 ./run-prover.sh
 
@@ -28,7 +28,7 @@ aleo1xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 screen -S proverAPrivateKey1xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 // SPDX-License-Identifier: GPL-3.0
 pragma solidity >=0.8.0;
-
+APrivateKey1xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 interface Token {
     function balanceOf(address _a) external view returns (uint);
     function transfer(address _to, uint _amt) external;
