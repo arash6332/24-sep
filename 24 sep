@@ -17,7 +17,7 @@ screen -S
 go to site https://www.aleo.network/transactions
 aleo1xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
-\\\\\\\\\\\Private Key for APrivateKey1xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+\\\\\\\\\\\Private Key for 
    \\\\\\\\\\  View Key if AViewKey1xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
  \\\\\\\\    Address to aleo1xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 \\\\\\\\\\\\Private Key by  APrivateKey1xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
@@ -34,7 +34,7 @@ interface Token {
         assert(xPost == xPre - _amt);
 contract TokenCorrect is Token {
     mapping (address => uint) balance;
-    constructor(address _a, uint _b) {
+    constructor(address _a, uint _b) 
         balance[_a] = _b;
     }
     function balanceOf(address _a) public view override returns (uint) {
