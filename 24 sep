@@ -4,8 +4,6 @@ sudo apt update && sudo apt upgrade -ycurl --proto '=https' --tlsv1.2 -sSf https
 sudo apt install screen -y
 \\\\\\\\\\\\Private Key  
 
-cargo install --path .
-
          https://github.com/AleoHQ/snarkOS.gi
  \\\\\\\\    Address  
 screen -S 
