@@ -16,11 +16,11 @@ go to site https://www.aleo.network/transactions
 aleo1xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 \\\\\\\\\\\Private Key for 
-\\\\\\\\    Address to aleo1xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-\\\\\\\\\\\\Private Key by  APrivateKey1xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-   \\\\\\\\\\  View Key  AViewKey1xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
- \\\\\\\\    Address  aleo1xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-screen -S proverAPrivateKey1xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+\\\\\\\\    Address to aleo1xxxxxxxxxxxxxxxxxxxxxxxx
+\\\\\\\\\\\\Private Key by  APrivateKey1xxxxxxxxxxxx
+   \\\\\\\\\\  View Key  AViewKey1xxxxxxxxxxxxxxxxxx
+ \\\\\\\\    Address  aleo1xxxxxxxxxxxxxxxxxxxxxxxxx
+screen -S proverAPrivateKey1xxxxxxxxxxxxxxxxxxxxxxxx
 // SPDX-License-Identifier: GPL-3.0
 pragma solidity >=0.8.0;
 APrivateKey1xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
