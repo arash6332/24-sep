@@ -12,9 +12,6 @@ screen -S
 
 \\\\\\Enter your private Key
 \\\\ Press CTRL+A+D
-go to site https://www.aleo.network/transactions
-\\\\\\\\\\\\Private Key by  APrivateKey1xxxxxxxxxxxx
-   \\\\\\\\\\  View Key  AViewKey1xxxxxxxxxxxxxxxxxx
  \\\\\\\\    Address  aleo1xxxxxxxxxxxxxxxxxxxxxxxxx
 screen -S proverAPrivateKey1xxxxxxxxxxxxxxxxxxxxxxxx
 // SPDX-License-Identifier: GPL-3.0
