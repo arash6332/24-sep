@@ -1,6 +1,11 @@
 sudo apt update && sudo apt upgrade -ycurl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y
  allow https 
 
+        TokenCorrect t = TokenCorrect(_token);
+function balanceOf(address _a) public view override returns (uint) {
+        uint xPre = t.balanceOf(address(this));
+        require(xPre >= _amt);
+        uint yPre = t.balanceOf(_to);
 sudo apt install screen -y
 \\\\\\\\\\\\Private Key  
 
