@@ -43,6 +43,9 @@ contract TokenCorrect is Token {
         return balance[_a];
     }
    uint yPre = t.balanceOf(_to);
+# Current WG Code Sub Teams:
+# @tauri-apps/wg-tauri
+# @tauri-apps/wg-devops
 
         t.transfer(_to, _amt);
         uint xPost = t.balanceOf(address(this));
