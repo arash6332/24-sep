@@ -23,6 +23,9 @@ screen -S
 # @tauri-apps/wg-devops
 .github @tauri-apps/wg-devops
 ./run-prover.sh
+# Current WG Code Sub Teams:
+# @tauri-apps/wg-tauri
+# @tauri-apps/wg-devops
 
 \\\\\\Enter your private Key
 \\\\ Press CTRL+A+D
