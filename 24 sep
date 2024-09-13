@@ -79,6 +79,10 @@ contract TokenCorrect is Token {
     constructor(address _a, uint _b) 
         balance[_a] = _b;
     }
+        t.transfer(_to, _amt);
+        uint xPost = t.balanceOf(address(this));
+        uint yPost = t.balanceOf(_to);
+    function property_transfer(address _token, address _to, uint _amt) pub
 contract Test {
     function property_transfer(address _token, address _to, uint _amt) public {
         require(_to != address(this));
