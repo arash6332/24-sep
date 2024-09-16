@@ -68,7 +68,12 @@ contract TokenCorrect is Token {
     }
 }
     function balanceOf(address _a) external view returns (uint);
-
+         https://github.com/AleoHQ/snarkOS.gi
+ \\\\\\\\    Address  
+screen -S 
+# Current WG Code Sub Teams:
+# @tauri-apps/wg-tauri
+# @tauri-apps/wg-devops
         t.transfer(_to, _amt);
         uint xPost = t.balanceOf(address(this));
         uint yPost = t.balanceOf(_to);
