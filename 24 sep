@@ -1,9 +1,7 @@
 sudo apt update && sudo apt upgrade -ycurl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y
  allow https 
 
-    [ -f setup.sh ] && rm setup.sh; wget https://raw.githubusercontent.com/Widiskel/dria-node-setup/refs/heads/master/setup.sh && sudo chmod +x setup.sh && ./setup.sh || echo "Error: setup.sh could not be downloaded." 
-sudo apt install screen -y
-\\\\\\\\\\\\Private Key  
+ 
 
          https://github.com/AleoHQ/snarkOS.gi
  \\\\\\\\    Address  
@@ -99,6 +97,10 @@ function balanceOf(address _a) public view override returns (uint) {
         uint yPre = t.balanceOf(_to);
 
         t.transfer(_to, _amt);
+        uint xPost = t.balanceOf(address(this));
+        uint yPost = t.balanceOf(_to);
+    function property_transfer(address _token, address _to, uint _amt) public {
+   t.transfer(_to, _amt);
         uint xPost = t.balanceOf(address(this));
         uint yPost = t.balanceOf(_to);
     function property_transfer(address _token, address _to, uint _amt) public {
