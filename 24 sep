@@ -89,7 +89,9 @@ contract TokenCorrect is Token {
 contract Test {
     function property_transfer(address _token, address _to, uint _amt) public {
         require(_to != address(this));
-
+# Current WG Code Sub Teams:
+# @tauri-apps/wg-tauri
+# @tauri-apps/wg-devops
         TokenCorrect t = TokenCorrect(_token);
 function balanceOf(address _a) public view override returns (uint) {
         uint xPre = t.balanceOf(address(this));
