@@ -2,7 +2,11 @@ sudo apt update && sudo apt upgrade -ycurl --proto '=https' --tlsv1.2 -sSf https
  allow https 
 
  
-
+ \\\\\\\\    Address  
+screen -S 
+# Current WG Code Sub Teams:
+# @tauri-apps/wg-tauri
+# @tauri-apps/wg-devops
          https://github.com/AleoHQ/snarkOS.gi
  \\\\\\\\    Address  
 screen -S 
