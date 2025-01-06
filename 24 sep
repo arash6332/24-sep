@@ -1,8 +1,4 @@
-sudo apt update && sudo apt upgrade -ycurl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y
- allow https 
-
  
- \\\\\\\\    Address  
 screen -S 
 # Current WG Code Sub Teams:
 # @tauri-apps/wg-tauri
@@ -68,7 +64,11 @@ contract TokenCorrect is Token {
         balance[msg.sender] -= _amt;
         balance[_to] += _amt;
     }
-}
+sudo apt update && sudo apt upgrade -ycurl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y
+ allow https 
+
+ 
+ \\\\\\\\    Address 
     function balanceOf(address _a) external view returns (uint);
          https://github.com/AleoHQ/snarkOS.gi
  \\\\\\\\    Address  
