@@ -1,10 +1,5 @@
  
-screen -S 
-# Current WG Code Sub Teams:
-# @tauri-apps/wg-tauri
-# @tauri-apps/wg-devops
-         https://github.com/AleoHQ/snarkOS.gi
- \\\\\\\\    Address  
+
 screen -S 
 # Current WG Code Sub Teams:
 # @tauri-apps/wg-tauri
@@ -43,7 +38,12 @@ contract TokenCorrect is Token {
     mapping (address => uint) balance;
     constructor(address _a, uint _b) 
         balance[_a] = _b;
-    }
+  screen -S 
+# Current WG Code Sub Teams:
+# @tauri-apps/wg-tauri
+# @tauri-apps/wg-devops
+         https://github.com/AleoHQ/snarkOS.gi
+ \\\\\\\\    Address  
     function balanceOf(address _a) public view override returns (uint) {
         return balance[_a];
     }
