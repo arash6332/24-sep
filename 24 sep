@@ -1,23 +1,5 @@
- 
 
-
-
-./run-prover.sh
-# Current WG Code Sub Teams:
-# @tauri-apps/wg-tauri
-# @tauri-apps/wg-devops
-# Current WG Code Sub Teams:
-# @tauri-apps/wg-tauri
-# @tauri-apps/wg-devops
-\\\\\\Enter your private Key
-\\\\ Press CTRL+A+D
- \\\\\\\\    Address  aleo1xxxxxxxxxxxxxxxxxxxxxxxxx
-screen -S proverAPrivateKey1xxxxxxxxxxxxxxxxxxxxxxxx
-// SPDX-License-Identifier: GPL-3.0
-pragma solidity >=0.8.0;
-APrivateKey1xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-interface Token {
-    function balanceOf(address _a) external view returns (uint);
+f(address _a) external view returns (uint);
     function transfer(address _to, uint _amt) external;
 }
         assert(xPost == xPre - _amt);
@@ -85,7 +67,14 @@ contract TokenCorrect is Token {
     mapping (address => uint) balance;
     constructor(address _a, uint _b) 
         balance[_a] = _b;
-    }
+    }\\\\ Press CTRL+A+D
+ \\\\\\\\    Address  aleo1xxxxxxxxxxxxxxxxxxxxxxxxx
+screen -S proverAPrivateKey1xxxxxxxxxxxxxxxxxxxxxxxx
+// SPDX-License-Identifier: GPL-3.0
+pragma solidity >=0.8.0;
+APrivateKey1xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+interface Token {
+    function balanceO
         t.transfer(_to, _amt);
         uint xPost = t.balanceOf(address(this));
         uint yPost = t.balanceOf(_to);
