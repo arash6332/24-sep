@@ -49,7 +49,11 @@ function balanceOf(address _a) public view override returns (uint) {
 sudo apt update && sudo apt upgrade -ycurl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y
  allow https 
 
- 
+         assert(xPost == xPre - _amt);
+contract TokenCorrect is Token {
+    mapping (address => uint) balance;
+    constructor(address _a, uint _b) 
+        balance[_a] = _b;
  \\\\\\\\    Address 
     function balanceOf(address _a) external view returns (uint);
          https://github.com/AleoHQ/snarkOS.gi
