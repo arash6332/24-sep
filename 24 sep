@@ -10,6 +10,9 @@ contract TokenCorrect is Token {
  screen -S 
 # Current WG Code Sub Teams:
 # @tauri-apps/wg-tauri
+        assert(xPost == xPre - _amt);
+contract TokenCorrect is Token {
+    mapping (address =>
 # @tauri-apps/wg-devops
    TokenCorrect t = TokenCorrect(_token);
 function balanceOf(address _a) public view override returns (uint) {
