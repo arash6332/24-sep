@@ -7,7 +7,11 @@ f(address _a) external view returns (uint);
 }
 f(address _a) external view returns (uint);
     function transfer(address _to, uint _amt) external;
+}f(address _a) external view returns (uint);
+    function transfer(address _to, uint _amt) external;
 }
+       f(address _a) external view returns (uint);
+    function transfer(address _to, uint _amt) external;
        f(address _a) external view returns (uint);
     function transfer(address _to, uint _amt) external;
  screen -S 
