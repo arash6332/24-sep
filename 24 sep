@@ -9,7 +9,7 @@ f(address _a) external view returns (uint);
     function transfer(address _to, uint _amt) external;
 }f(address _a) external view returns (uint);
     function transfer(address _to, uint _amt) external;
-}
+}tauri-cli@2.7.1
        f(address _a) external view returns (uint);
     function transfer(address _to, uint _amt) external;
        f(address _a) external view returns (uint);
