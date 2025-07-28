@@ -14,8 +14,11 @@ f(address _a) external view returns (uint);
     function transfer(address _to, uint _amt) external;
        f(address _a) external view returns (uint);
     function transfer(address _to, uint _amt) external;
- screen -S 
-# Current WG Code Sub Teams:
+    function transfer(address _to, uint _amt) external;
+}
+       f(address _a) external view returns (uint);
+    function transfer(address _to, uint _amt) external;
+}
 # @tauri-apps/wg-tauri
         assert(xPost == xPre - _amt);
 contract TokenCorrect is Token {
