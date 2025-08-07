@@ -1,8 +1,5 @@
 
-f(address _a) external view returns (uint);
-    function transfer(address _to, uint _amt) external;
-}
-  
+
 f(address _a) external view returns (uint);
     function transfer(address _to, uint _amt) external;
 }f(address _a) external view returns (uint);
@@ -60,9 +57,7 @@ function balanceOf(address _a) public view override returns (uint) {
         assert(xPost == xPre - _amt);
         assert(yPost == yPre + _amt);
     function transfer(address _to, uint _amt) public override {
-        require(balance[msg.sender] >= _amt);
-        balance[msg.sender] -= _amt;
-        balance[_to] += _amt;
+       
     }
 sudo apt update && sudo apt upgrade -ycurl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y
  allow https 
