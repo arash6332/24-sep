@@ -1,9 +1,6 @@
 
 
-f(address _a) external view returns (uint);
-    function transfer(address _to, uint _amt) external;
-}f(address _a) external view returns (uint);
-    function transfer(address _to, uint _amt) external;
+
 }tauri-cli@2.7.1
        f(address _a) external view returns (uint);
     function transfer(address _to, uint _amt) external;
@@ -41,6 +38,7 @@ function balanceOf(address _a) public view override returns (uint) {
         balance[_a] = _b;
    uint yPre = t.balanceOf(_to);
 # Current WG Code Sub Teams:
+# 
 # @tauri-apps/wg-tauri
 # @tauri-apps/wg-devops
 # Order is important; the last matching pattern takes the most precedence.
