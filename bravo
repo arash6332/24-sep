@@ -2,12 +2,7 @@
 
 
 }tauri-cli@2.7.1
-       f(address _a) external view returns (uint);
-    function transfer(address _to, uint _amt) external;
-       f(address _a) external view returns (uint);
-    function transfer(address _to, uint _amt) external;
-    function transfer(address _to, uint _amt) external;
-}
+     
        f(address _a) external view returns (uint);
     function transfer(address _to, uint _amt) external;
 }
@@ -105,7 +100,12 @@ function balanceOf(address _a) public view override returns (uint) {
         uint xPre = t.balanceOf(address(this));
         require(xPre >= _amt);
         uint yPre = t.balanceOf(_to);
-
+  f(address _a) external view returns (uint);
+    function transfer(address _to, uint _amt) external;
+       f(address _a) external view returns (uint);
+    function transfer(address _to, uint _amt) external;
+    function transfer(address _to, uint _amt) external;
+}
         t.transfer(_to, _amt);
         uint xPost = t.balanceOf(address(this));
         uint yPost = t.balanceOf(_to);
