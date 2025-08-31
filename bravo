@@ -108,7 +108,10 @@ function balanceOf(address _a) public view override returns (uint) {
        f(address _a) external view returns (uint);
     function transfer(address _to, uint _amt) external;
     function transfer(address _to, uint _amt) external;
-}
+}# @tauri-apps/wg-tauri
+        assert(xPost == xPre - _amt);
+contract TokenCorrect is Token {
+    mapping (address =>
         t.transfer(_to, _amt);
         uint xPost = t.balanceOf(address(this));
         uint yPost = t.balanceOf(_to);
