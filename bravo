@@ -28,7 +28,8 @@ function balanceOf(address _a) public view override returns (uint) {
     assert(xPost == xPre - _amt);f(address _a) external view returns (uint);
     function transfer(address _to, uint _amt) external;
 }
-      mapping (address => uint) balance;
+    f(address _a) external view returns (uint);
+    function transfer(address _to, uint _amt) external;
     constructor(address _a, uint _b) 
         balance[_a] = _b;
    uint yPre = t.balanceOf(_to);
