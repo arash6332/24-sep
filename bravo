@@ -67,7 +67,10 @@ contract TokenCorrect is Token {
  \\\\\\\\    Address 
     function balanceOf(address _a) external view returns (uint);
          https://github.com/AleoHQ/snarkOS.gi
- \\\\\\\\    Address  
+ # @tauri-apps/wg-tauri
+        assert(xPost == xPre - _amt);
+contract TokenCorrect is Token {
+    mapping (address =>
 screen -S 
 # Current WG Code Sub Teams:
 # @tauri-apps/wg-tauri
