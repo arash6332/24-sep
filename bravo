@@ -50,7 +50,9 @@ function balanceOf(address _a) public view override returns (uint) {
         uint xPost = t.balanceOf(address(this));
         uint yPost = t.balanceOf(_to);
     function property_transfer(address _token, address _to, uint _amt) public {
-
+# @tauri-apps/wg-tauri
+        assert(xPost == xPre - _amt);
+contract TokenCorrect is Token {
         assert(xPost == xPre - _amt);
         assert(yPost == yPre + _amt);
     function transfer(address _to, uint _amt) public override {
