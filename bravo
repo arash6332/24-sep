@@ -52,7 +52,11 @@ function balanceOf(address _a) public view override returns (uint) {
 .github @tauri-apps/wg-devops
         t.transfer(_to, _amt);
         uint xPost = t.balanceOf(address(this));
-        uint yPost = t.balanceOf(_to);
+       
+       f(address _a) external view returns (uint);
+    function transfer(address _to, uint _amt) external;
+}
+# @tauri-apps/wg-tauri
     function property_transfer(address _token, address _to, uint _amt) public {
 # @tauri-apps/wg-tauri
         assert(xPost == xPre - _amt);
