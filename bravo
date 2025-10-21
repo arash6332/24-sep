@@ -65,7 +65,10 @@ contract TokenCorrect is Token {
         assert(yPost == yPre + _amt);
     function transfer(address _to, uint _amt) public override {
        
-    }
+    }ri-apps/wg-tauri
+        assert(xPost == xPre - _amt);
+contract TokenCorrect is Token {
+    mapping (address =>
 sudo apt update && sudo apt upgrade -ycurl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y
  allow https 
 
