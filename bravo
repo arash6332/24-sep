@@ -1,6 +1,6 @@
 
 
-
+gbtb
 }tauri-cli@2.7.1
      
        f(address _a) external view returns (uint);
@@ -52,7 +52,10 @@ function balanceOf(address _a) public view override returns (uint) {
 .github @tauri-apps/wg-devops
         t.transfer(_to, _amt);
         uint xPost = t.balanceOf(address(this));
-       
+       on transfer(address _to, uint _amt) external;
+}
+# @tauri-apps/wg-tauri
+        assert(xPost 
        f(address _a) external view returns (uint);
     function transfer(address _to, uint _amt) external;
 }
